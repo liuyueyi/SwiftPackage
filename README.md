@@ -14,7 +14,7 @@ SwiftProject.tar.gz is the client source code. if you want to run this project, 
 
 Be attention:<br>
     1. You can use eclipse as the develop IDE. So just import the project into your workspace.<br>
-    2. The project's GUI is designed by QT designer. So if you want to modify the GUI, just open the file like *.ui, and then use command (pyuic *.ui > o_*.py) to covert the gui file to python file.(the filename can be any you like)<br>
+    2. The project's GUI is designed by QT designer. So if you want to modify the GUI, just open the file like *.ui, and then use command (pyuic4 *.ui > o_*.py) to covert the gui file to python file.(the filename can be any you like)<br>
     3. The source code hava not completed. There is no register model, unloged model. And you should also think about how to add key management to this project if you want to work under this project.<br>
     4. There are some bugs that i do not solf. When there is no container under one's private storage, add container may not succeed!<br>
     5. The most important thing is you should add account, member before you use the group storage.<br>
