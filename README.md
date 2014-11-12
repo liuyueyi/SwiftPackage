@@ -1,10 +1,11 @@
 Instruction
 -----------
-  the package under this directory is the necessory develop tools. If you want to start with openstack swift, you should install them first. You can search ['swift all in one'](http://docs.openstack.org/developer/swift/development_saio.html) or read the *swift_all_in_one.pdf* to get the detail information about how to confige the swift environment.<br>
+The package under this directory is the necessory develop tools. If you want to start with openstack swift, you should install them first. You can search ['swift all in one'](http://docs.openstack.org/developer/swift/development_saio.html) or read the *swift_all_in_one.pdf* to get the detail information about how to confige the swift environment.<br>
 
 **Be attention:**<br>
-> use the *swift.tar.gz python-swiftclient.tar.gz* to cover the git source code. Because the newest source code may delete some functions that our project needs. So you should install the swift, swiftclient and swauth use the package here to instead the neweast one. If you do not know how to install this, please read the README.md or some file like this in the package
-> If you choose ubuntu as the development operation system, I suggest you to install the newest os version such as Ubuntu14.04 LTS. If not, you will find that is difficult to install some reliable libs because the different version.
+> use the **swift.tar.gz python-swiftclient.tar.gz** to cover the git source code. Because the newest source code may delete some functions that our project needs.<br>
+> So you should install the swift, swiftclient and swauth use the package here to instead the neweast one. If you do not know how to install this, please read the **README.md** or some file like this in the package<br>
+> If you choose ubuntu as the development operation system, I suggest you to install the *newest os version* such as Ubuntu14.04 LTS. If not, you will find that is difficult to install some reliable libs because the different version.
 
 
 Install develop environment
