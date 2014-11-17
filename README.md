@@ -1,6 +1,6 @@
 Instruction
 -----------
-The package under this directory is the necessory develop tools. If you want to start with openstack swift, you should install them first. You can search ['swift all in one'](http://docs.openstack.org/developer/swift/development_saio.html) or read the *swift_all_in_one.pdf* to get the detail information about how to confige the swift environment.<br>
+The package under this directory is the necessory develop tools. If you want to start with openstack swift, you should install them first. You can search ['swift all in one'](http://docs.openstack.org/developer/swift/development_saio.html) or read the **swift_all_in_one.pdf** to get the detail information about how to confige the swift environment.<br>
 
 **Be attention:**<br>
 > use the **swift.tar.gz python-swiftclient.tar.gz** to cover the git source code. Because the newest source code may delete some functions that our project needs.<br>
@@ -30,7 +30,7 @@ Add group
 > 1.just add memeber: <br>
         ` swauth-add-user -K swauthkey -a user1 user1 user1`<br>
 > 2.add group: <br>
-        ` swauth-add-user -K swautkey -a user1 user1 user1 -G 'group1,group2...'`
+        ` swauth-add-user -K swautkey -a user1 user1 user1 -G 'group1,group2...'`<br>
         ` swauth-add-user -K swauthkey -a group1 user1 user1 -I 'attr1,attr2..'`
 
 **Pay attention:**<br>
